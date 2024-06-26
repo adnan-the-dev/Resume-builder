@@ -1,0 +1,22 @@
+.professional-container {
+}
+.professional-container > :nth-child(1) {
+  font-weight: bold;
+  color: #d89d13;
+  text-decoration: underline;
+}
+
+.professional-container > :nth-child(2) {
+  font-weight: bold;
+  color: black;
+  margin: 7px 0px;
+}
+
+.professional-container > :nth-child(3) {
+  font-weight: bold;
+  color: #d9b357;
+  /* margin: 7px 0px; */
+}
+.achievment-list ul li{
+    margin-top: 1rem;
+}
