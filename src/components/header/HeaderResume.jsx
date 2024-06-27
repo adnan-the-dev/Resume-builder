@@ -48,10 +48,10 @@ export default function HeaderResume() {
 
         {/* professional section of header */}
         <div className="professional-section">
-          <div style={{border:'1px solid red',width:'50%'}}>
+          <div style={{ width: "50%" }}>
             <Professional />
           </div>
-          <div style={{border:'1px solid yellow',width:'50%'}}>
+          <div style={{ width: "50%" }}>
             <SoftSkills />
           </div>
         </div>

@@ -1,6 +1,8 @@
 import React from "react";
-import MailIcon from "@mui/icons-material/Mail";
-import PhoneIphoneIcon from "@mui/icons-material/PhoneIphone";
+import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
+import AudiotrackIcon from "@mui/icons-material/Audiotrack";
+import WindPowerIcon from "@mui/icons-material/WindPower";
+import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 import "./professional.css";
 
 export default function Professional() {
@@ -72,27 +74,29 @@ export default function Professional() {
         </div>
 
         {/* Marketion Assistant */}
-        
+
         <div className="intersts-container">
           <h2>INTERSTS</h2>
-          <div>
-            <div>
-              <MailIcon />
-              <p>abc123@gmail.com</p>
+          <div className="main-div">
+            <div className="phoneMail-container">
+              <div className="phone">
+                <SportsEsportsIcon style={{ color: '#d9b357' }}/>
+                <p>Video Games</p>
+              </div>
+              <div className="phone">
+                <AudiotrackIcon style={{ color: '#d9b357' }}/>
+                <p>Music</p>
+              </div>
             </div>
-            <div>
-              <PhoneIphoneIcon />
-              <p>032238475754</p>
-            </div>
-          </div>
-          <div>
-            <div>
-              <MailIcon />
-              <p>abc123@gmail.com</p>
-            </div>
-            <div>
-              <PhoneIphoneIcon />
-              <p>032238475754</p>
+            <div className="phoneMail-container">
+              <div className="phone">
+                <WindPowerIcon style={{ color: '#d9b357' }}/>
+                <p>Renewable Energy</p>
+              </div>
+              <div className="phone">
+                <AutoAwesomeIcon style={{ color: '#d9b357' }}/>
+                <p>Artifical Intelligence</p>
+              </div>
             </div>
           </div>
         </div>

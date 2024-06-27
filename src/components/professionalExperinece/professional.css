@@ -1,8 +1,7 @@
-.professional-container {
-}
+
 .professional-container > :nth-child(1) {
   font-weight: bold;
-  color: #d89d13;
+  color: #d9b357;
   text-decoration: underline;
 }
 
@@ -17,6 +16,31 @@
   color: #d9b357;
   /* margin: 7px 0px; */
 }
-.achievment-list ul li{
-    margin-top: 1rem;
+.achievment-list ul li {
+  margin-top: 1rem;
+}
+
+.phoneMail-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem 0px;
+
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 8px;
+}
+
+.main-div {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  /* flex-direction: column; */
+  gap: 2rem;
 }
